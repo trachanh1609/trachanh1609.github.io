@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vu Nguyen</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div id="myContainer" class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Vu Nguyen</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#connect">Connect</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron" id="home">
+        <div class="container text-center">
+          <br><br><br>
+            <img src="images/vu.jpg" alt="VuNguyen" class="img-circle vu-icon">
+            <h2>Hi , I am Vu Nguyen</h2>
+            <p>I am a frontend developer living in Helsinki, Finland</p>
+            <p>Currently I am looking for challenges as a frontend developer</p>
+        </div>
+    </div>
+
+    <div id="about" class="container-fluid text-center">
+      <br>
+        <div class="content_box col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+            <h2>ABOUT ME</h2>
+            <p>After some years doing various kind of jobs, I realised that my passions are not about doing some specific things, rather that, they are specific feelings when I do different things. I like solving puzzles, playing intellectual games not because of the games itself but because of the excitement after I solved the puzzles. Being creative feels really great, I usually have new ideas to solve everyday life problems and I'd love to be creative over and over again. Additionally, I like talking with other people, especially smart ones because I feel motivated, energetic and really excited when I learn something new or interesting.</p>
+            <p>Being a web developer perfectly fits all of the criteria. I can write code, make things work which is similar to solving puzzles. I can be creative and build some products, nowadays most of the products are connected to the internet so web development would have the most possibility. I can also meet other smart developers in events or I can partner up with some entrepreneurs to build a real world solution, either way I would learn so much from that. Indeed, I think I have found my <strong>passion</strong>.</p>
+            <p class="last"></p>
+        </div>
+    </div>
+    <div id="portfolio" class="container-fluid bg-3 text-center">
+        <div class="row">
+            <div class="content_box col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                <h2>PROJECTS</h2>
+            </div>
+        </div>
+        <br><br><br><br>
+        <div id="portfolio-projects" class="row">
+
+        </div><br><br><br><br>
+
+    </div>
+    <div id="skills" class="container-fluid bg-3 text-center">
+        <div class="row">
+            <div class="content_box col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                <h2>SKILLS</h2>
+            </div>
+        </div>
+        <br><br><br><br>
+        <div id="skillList" class="row">
+
+        </div>
+        <br><br><br><br>
+
+    </div>
+
+    <div id="connect" class="container-fluid text-center">
+        <div class="row">
+            <div class="content_box col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                <h2>CONNECT</h2>
+                <p>Feel free to send me a message, just to say hello or give some feedback, some insight about any topic that we may discuss. I think ideas are worth sharing and reflecting so yeah, please don't hesitate to contact.</p>
+                <div id="connect-content" class="row">
+                    <div class="col-xs-3 text-center">
+                        <a href="https://fi.linkedin.com/in/anhvun">
+                            <img src="images/social-icons/linkedin-white.png" class="social-image hvr-grow" alt="linkedin">
+                        </a>
+                    </div>
+                    <div class="col-xs-3 text-center">
+                        <a href="https://github.com/trachanh1609">
+                            <img src="images/social-icons/github.png" class="social-image hvr-grow" alt="github">
+                        </a>
+                    </div>
+                    <div class="col-xs-3 text-center">
+                        <a href="http://www.vufinland.com/cv"><img src="images/social-icons/cv.png" class="social-image hvr-grow" alt="cv">
+                        </a>
+                    </div>
+                    <div class="col-xs-3 text-center">
+                        <a href="mailto:trachanh@gmail.com"><img src="images/social-icons/email.png" class="social-image hvr-grow" alt="email">
+                        </a>
+                    </div>
+                </div>
+                <p class="last"></p>
+            </div>
+        </div>
+        <br><br><br><br>
+        <br><br><br><br><br><br><br><br>
+    </div>
+
+
+    <div class="modal fade" id="InfoModal" tabindex="-1" role="dialog" aria-labelledby="InfoModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title text-center" id="InfoModalLabel">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            <img id="InfoModalImg" src="" style="width:100%; padding:5%;">
+            <p id="InfoModalBody"></p>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+        $.getJSON("json/skills.json", function(data) {
+
+            $.each(data, function(key, val) {
+                var skillContent = '';
+                skillContent += '<div class="col-sm-3 skill-block">';
+                skillContent += '<img src="' + val.iconLink + '" class="img-circle skill-image" alt=""><h3>' + val.skillName + '</h3>';
+                skillContent += '</div>';
+
+                $('#skillList').append(skillContent);
+            });
+        });
+
+
+        $.getJSON("json/projects.json", function(data) {
+
+            $.each(data, function(key, val) {
+                var projectContent = '';
+
+                projectContent += '<div class="col-sm-6 col-md-4" ;>';
+                projectContent += '    <div class="thumbnail project-card">';
+                // projectContent += '        <a href="' + val.image + '"><img src="' + val.image + '" class="project-image hvr-grow" alt="'+ val.projectName + '"></a>';
+                projectContent += '        <a onclick="showInfo('+val.index+');"><img data-toggle="tooltip" data-placement="top" title="Click for more info" src="' + val.image + '" class="project-image hvr-grow" alt="'+ val.projectName + '"></a>';
+                // projectContent += '        <img src="' + val.image + '" class="project-image hvr-grow moreInfo" alt="'+ val.projectName + '">';
+                projectContent += '        <div class="caption">';
+                projectContent += '            <h3>' + val.projectName + '</h3>';
+                projectContent += '            <p>' + val.technology + '</p>';
+                projectContent += '            <p>';
+
+                if (val.github != ''){
+                  projectContent += '<a href="'+val.github+'" class="btn btn-primary" role="button">Github</a>';
+                }
+                if (val.live != ''){
+                  projectContent += ' <a href="'+val.live+'" class="btn btn-success" role="button">Live</a>';
+                }
+                // projectContent += '            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>';
+                projectContent += '            </p>';
+                projectContent += '        </div>';
+                projectContent += '    </div>';
+                projectContent += '</div>';
+
+                $('#portfolio-projects').append(projectContent);
+            });
+        });
+
+        function showInfo(index){
+
+          $.getJSON("json/projects.json", function(data){
+            console.log(data[index].projectName)
+            $('#InfoModalLabel').text(data[index].projectName)
+            $('#InfoModalImg').attr("src",data[index].image)
+            $('#InfoModalBody').text(data[index].technology)
+
+          })
+
+          $('#InfoModal').modal('toggle')
+        }
+
+    </script>
+
+</body>
+
+</html>

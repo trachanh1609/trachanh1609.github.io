@@ -1,0 +1,148 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  min-height:500px;
+}
+
+.vu-icon {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #333333;
+  padding : 3px;
+  margin-top: 50px;
+}
+#myContainer{
+  background-color: #333333;
+}
+
+#home p{
+  margin: 0;
+}
+
+#about {
+  min-height : 800px;
+  background-image: url(../images/litvin.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display:inline-block;
+  background-size: cover;
+}
+
+.content_box {
+  color: white;
+  margin-top: 150px;
+}
+.content_box h2 {
+    overflow: hidden;
+    text-align: center;
+}
+.content_box h2:before,
+.content_box h2:after {
+    background-color: white;
+    /*border-bottom: 1px solid white;
+    border-top: 1px solid white;*/
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.content_box h2:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.content_box h2:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+.content_box p{
+  text-align: justify;
+  padding: 20px 30px 0px 30px;
+  font-family: Neuton;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: italic;
+}
+.content_box .last{
+  border-bottom: 3px solid white;
+  margin-bottom: 50px;
+}
+
+
+#skills {
+  background-image: url("../images/crossed_stripes.png");
+  /*background-size: cover;
+  background-position:center;*/
+  background-repeat:repeat;
+}
+
+#skillList .skill-block {
+  margin-bottom: 50px;
+  color: white;
+}
+#skillList .skill-image{
+  border: 1px solid black;
+  padding:2px;
+  width:133px;
+  height: 133px;
+}
+
+#portfolio {
+  background-image: url("../images/wxjscl5zzda-boris-stefanik.jpg");
+  background-size: cover;
+  background-position:center;
+}
+
+#portfolio-projects img {
+  height:250px;
+  width: 333px;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+#portfolio-projects .thumbnail{
+  background-color: rgba(0, 0, 0, 0.25);
+}
+#portfolio-projects .caption{
+  color: white;
+}
+
+#connect {
+  background-image: url("../images/accounting.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#connect-content{
+  text-align: justify;
+  padding: 30px 0px 30px 0px;
+}
+#connect-content .social-image{
+  width:30%;
+  height:30%;
+}
+
+/* From HoverCSS */
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}

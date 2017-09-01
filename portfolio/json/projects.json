@@ -1,0 +1,90 @@
+[
+  {
+    "index": 0,
+    "projectName": "Texas Holdem Poker",
+    "technology": "Python 2.7",
+    "image": "images/project-thumbnail/poker.jpg",
+    "github": "https://github.com/trachanh1609/PokerGame",
+    "live": ""
+  },
+  {
+    "index": 1,
+    "projectName": "Phone Store",
+    "technology": "Angular 1.X, HTML,CSS,Bootstrap",
+    "image": "images/project-thumbnail/phone-store.png",
+    "github": "https://github.com/trachanh1609/phonelist",
+    "live": "http://www.vufinland.com/phonelist"
+  },
+  {
+    "index": 2,
+    "projectName": "Task List",
+    "technology": "MEAN stack with Angular 2",
+    "image": "images/project-thumbnail/task-list.png",
+    "github": "https://github.com/trachanh1609/Vu-task-list",
+    "live": "https://vu-task-list.herokuapp.com"
+  },
+  {
+    "index": 3,
+    "projectName": "Game List",
+    "technology": "Django, ReactJS, REST API",
+    "image": "images/project-thumbnail/game-list.png",
+    "github": "https://github.com/trachanh1609/gamelist",
+    "live":""
+  },
+  {
+    "index": 4,
+    "projectName": "Codility Challenges",
+    "technology": "Python, Algorithm",
+    "image": "images/project-thumbnail/codility-L11.png",
+    "github": "https://github.com/trachanh1609/codility",
+    "live":""
+  },
+  {
+    "index": 5,
+    "projectName": "NodeJS",
+    "technology": "Learnyounode, 13 challenges",
+    "image": "images/project-thumbnail/learnyounode.png",
+    "github": "https://github.com/trachanh1609/nodeschool/tree/master/LearnNodeJS",
+    "live":""
+  },
+  {
+    "index": 6,
+    "projectName": "ReactJS",
+    "technology": "Learnyoureact, 11 challenges",
+    "image": "images/project-thumbnail/learnyoureact.png",
+    "github": "https://github.com/trachanh1609/nodeschool/tree/master/LearnReactJS",
+    "live":""
+  },
+  {
+    "index": 7,
+    "projectName": "Tilitoimisto Website",
+    "technology": "WordPress",
+    "image": "images/project-thumbnail/matikainenoy.png",
+    "github": "",
+    "live": "http://www.matikainenoy.fi"
+  },
+  {
+    "index": 8,
+    "projectName": "Finding a teammate",
+    "technology": "VueJS, REST API",
+    "image": "images/project-thumbnail/DreamTeam.png",
+    "github": "https://gitlab.com/trachanh1609/dreamteam",
+    "live": ""
+  },
+  {
+    "index": 9,
+    "projectName": "MongoDB",
+    "technology": "Nodeschool MongoDB",
+    "image": "images/project-thumbnail/learnyoureact.png",
+    "github": "https://github.com/trachanh1609/nodeschool/tree/master/LearnReactJS",
+    "live":""
+  },
+  {
+    "index": 10,
+    "projectName": "SASS",
+    "technology": "Nodeschool SASS",
+    "image": "images/project-thumbnail/learnyoureact.png",
+    "github": "https://github.com/trachanh1609/nodeschool/tree/master/LearnReactJS",
+    "live":""
+  }
+]

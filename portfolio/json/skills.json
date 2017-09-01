@@ -1,0 +1,82 @@
+[
+  {
+    "index": 0,
+    "skillName": "HTML",
+    "iconLink": "images/web-icons/html.png"
+  },
+  {
+    "index": 1,
+    "skillName": "CSS",
+    "iconLink": "images/web-icons/css.png"
+  },
+  {
+    "index": 2,
+    "skillName": "JavaScript",
+    "iconLink": "images/web-icons/javascript.png"
+  },
+  {
+    "index": 3,
+    "skillName": "jQuery",
+    "iconLink": "images/web-icons/jquery.png"
+  },
+  {
+    "index": 4,
+    "skillName": "Bootstrap",
+    "iconLink": "images/web-icons/bootstrap.png"
+  },
+  {
+    "index": 5,
+    "skillName": "Python",
+    "iconLink": "images/web-icons/python.png"
+  },
+  {
+    "index": 6,
+    "skillName": "NodeJS",
+    "iconLink": "images/web-icons/nodejs.png"
+  },
+  {
+    "index": 7,
+    "skillName": "AngularJS",
+    "iconLink": "images/web-icons/angular.png"
+  },
+  {
+    "index": 8,
+    "skillName": "ReactJS",
+    "iconLink": "images/web-icons/react.png"
+  },
+  {
+    "index": 15,
+    "skillName": "VueJS",
+    "iconLink": "images/web-icons/vuejs.png"
+  },
+  {
+    "index": 9,
+    "skillName": "GIT",
+    "iconLink": "images/web-icons/github.png"
+  },
+  {
+    "index": 10,
+    "skillName": "REST API",
+    "iconLink": "images/web-icons/rest-api.jpeg"
+  },
+  {
+    "index": 11,
+    "skillName": "WordPress",
+    "iconLink": "images/web-icons/wordpress.jpg"
+  },
+  {
+    "index": 12,
+    "skillName": "ExpressJS",
+    "iconLink": "images/web-icons/express.jpg"
+  },
+  {
+    "index": 13,
+    "skillName": "MongoDB",
+    "iconLink": "images/web-icons/mongodb.jpeg"
+  },
+  {
+    "index": 14,
+    "skillName": "Robot Framework",
+    "iconLink": "images/web-icons/robot.jpg"
+  }
+]
