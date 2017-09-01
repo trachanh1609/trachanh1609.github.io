@@ -1,0 +1,8 @@
+$ resume export index.html -t elegant
+
+<a class="fs-2x social-link icon-graduation-cap" href="http://www.vufinland.com/portfolio" target="_blank" data-toggle="tooltip" title="" data-original-title="Vu Nguyen Porfolio"></a>
+
+<li> <br> </li>
+<li> <br> </li>
+<li> <br> </li>
+<li> <br> </li>
