@@ -1,6 +1,20 @@
 $ resume export index.html -t elegant
 
-<a class="fs-2x social-link icon-graduation-cap" href="http://www.vufinland.com/portfolio" target="_blank" data-toggle="tooltip" title="" data-original-title="Vu Nguyen Porfolio"></a>
+1.
+<div class="social-links text-center">
+  <div>
+      <a class="fs-2x social-link link-github icon-github" href="https://github.com/trachanh1609" target="_blank" data-toggle="tooltip" title="Vu Nguyen on Github"></a>
+      <a class="fs-2x social-link link-linkedin icon-linkedin" href="https://www.linkedin.com/in/anhvun/"
+        target="_blank" data-toggle="tooltip" title="Vu Nguyen on LinkedIn"></a>
+      <a class="fs-2x social-link icon-graduation-cap" href="https://trachanh1609.github.io/en/portfolio" target="_blank" data-toggle="tooltip" title="" data-original-title="Vu Nguyen Porfolio"></a>
+    </div>
+</div>
+
+2.
+@media (max-width: 992px) and (min-width: 768px) {
+  .contact-details .detail {
+    float: left;
+    width: 33.3%;
 
 <li> <br> </li>
 <li> <br> </li>

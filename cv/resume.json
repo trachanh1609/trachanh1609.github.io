@@ -5,7 +5,7 @@
     "picture": "images/vu.jpg",
     "email": "trachanh@gmail.com",
     "phone": "+358 442048050",
-    "website": "www.vufinland.com",
+    "website": "https://trachanh1609.github.io/en/portfolio",
     "summary": "&quot;The only way to do great work is to love what you do&quot;- Steve Jobs.It took me almost a decade to realize how important it is to do what I love in order to enjoy and achieve great work. It also took me about 2 years to find out what kind of work I enjoy doing. Since I switched my career to software development, I have been enjoying the journey so far and the future is really potential and bright.",
     "location": {
       "address": "Parivaljakontie 2",
@@ -29,15 +29,32 @@
   },
   "work": [
     {
-      "company": "Faraday Fast Rentals & Services Oy",
+      "company": "Meetingpackage",
       "position": "Frontend Developer",
-      "website": "https://faraday.fi",
-      "startDate": "2017-2",
+      "website": "https://meetingpackage.com",
+      "startDate": "2017-8",
       "endDate": "",
       "summary": "",
       "highlights": [
-        "Working in Frontend development, building Web application using VueJS, Twitter Bootstrap",
-        "Working in Frontend development for company's Hybrid Mobile App"
+        "UX/UI design for the venue page",
+        "Create a mockup html of the venue page with some fake data, using VueJS",
+        "Testing and Test documentation",
+        "Fix the date time picker to work with multi languages"
+      ]
+    },
+    {
+      "company": "Autonappi",
+      "position": "Frontend Developer",
+      "website": "http://www.autonappi.fi",
+      "startDate": "2017-2",
+      "endDate": "2017-5",
+      "summary": "",
+      "highlights": [
+        "Front-end developer in a team of 2 people",
+        "Together with the CTO, built a working web application for managing vehicles and payment from scratch in 3 weeks ( specifications are already in CTO's head, UI polishing and further improvement continue after that).",
+        "Researching and giving input about the technology to be used for the web application, mobile application",
+        "Updating UI for the mobile app and making some small changes as required",
+        "Responsible for the company's website ( Wordpress), from choosing the theme to the final version"
       ]
     },
     {
