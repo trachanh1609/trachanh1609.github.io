@@ -356,3 +356,8 @@ table.list tbody tr:hover {
         display: none;
     }
 }
+
+#toggleButton:hover{
+  color: blue;
+  cursor:pointer;
+}

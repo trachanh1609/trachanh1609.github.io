@@ -1,9 +1,8 @@
 $(document).ready(function() {
 
-    $(".nav-toggle").click(function() {
-        $("nav").toggleClass("opened");
-        return false;
-    });
+    $("#toggleButton").click(function(){
+      $("#description").slideToggle();
+    })
 
     getAndDisplayFromServer();
 
