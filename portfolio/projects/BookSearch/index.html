@@ -1,0 +1,83 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Frosmo Assignment</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+
+    <main class="container fluid">
+
+        <div>
+            <h2>Google Book Search</h2>
+        </div>
+
+        <section>
+          <div class="col-md-6 col-md-offset-3">
+            <div class="input-group">
+                <input type="text" id="searchKeyword" class="form-control" placeholder="Search books ...">
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="button" id="searchButton">Search</button>
+                </span>
+            </div>
+          </div>
+          <div class="col-md-6 col-md-offset-3">
+              <label class="radio-inline"><input type="radio" name="searchBy" value="intitle" checked>by Title</label>
+              <label class="radio-inline"><input type="radio" name="searchBy" value="inauthor">by Author</label>
+          </div>
+
+        </section>
+
+        <section>
+          <div class="col-sm-12">
+            <br>
+          </div>
+          <div class="col-sm-12" id="errorMessage"></div>
+
+          <div class="row col-sm-12">
+            <button type="button" id="previous" class="btn btn-default">Previous Page</button>
+            <button type="button" id="current" class="btn btn-default">Current Page</button>
+            <button type="button" id="next" class="btn btn-default">Next Page</button>
+            <br>
+          </div>
+
+          <div class="col-sm-12">
+            <div>
+              <h5>Number of Results per search <span id="quantity"></span></h5>
+              <input type="range" name="quantity" min="10" max="40">
+            </div>
+            <hr>
+          </div>
+
+          <table class="table table-bordered table-hover table-responsive" id="books-table">
+              <caption style="display:none;" id="message">Loading...</caption>
+              <thead>
+                  <tr>
+                      <th class="col-sm-1 " >No.</th>
+                      <th class="col-sm-4 sorter active" data-sorter-name="title">Title</th>
+                      <th class="col-sm-3">Summary</th>
+                      <th class="col-sm-2 sorter" data-sorter-name="author">Author</th>
+                      <th class="col-sm-2 sorter" data-sorter-name="publishedDate">publishedDate</th>
+                  </tr>
+              </thead>
+              <tbody>
+
+              </tbody>
+          </table>
+
+        </section>
+
+    </main>
+
+    <script type="text/javascript" src="js/utils.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/jQuery.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/main.js" charset="utf-8"></script>
+
+</body>
+</html>

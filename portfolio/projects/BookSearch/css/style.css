@@ -1,0 +1,18 @@
+table th:hover {
+  cursor: pointer;
+}
+
+table th.sorter:after {
+    content: '\25B2';
+    display: inline-block;
+    margin-left: 5px;
+    color: #e0e0e0;
+}
+
+table th.sorter.desc:after {
+    content: '\25BC';
+}
+
+table th.sorter.active:after {
+    color: #444;
+}
