@@ -1,0 +1,162 @@
+<html>
+	<head>
+		<title>Test D 01</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+		<script src="https://unpkg.com/vue"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue-resource@1.3.4"></script>
+	</head>
+	<body>
+
+		<h1 class="text-center">Train Composition Viewer</h1>
+		<div id="app" class="container">
+				<select v-model="selectedStation">
+				  <option disabled value="">Please select one</option>
+				  <option :value="station.stationShortCode" v-for="station in stationList">{{station.stationName}} {{station.stationShortCode}}</option>
+				</select>
+
+				<h3>Selected station: {{selectedStation}}</h3>
+				<br>
+
+				<div class="row" v-if="trainList.length">
+					<train v-for="train in trainList" :train="train" :key="train.trainNumber"></train>
+				</div>
+
+				<div v-else>
+					<h4>There is no train passing {{selectedStation}}</h4>
+				</div>
+		</div>
+
+		<script>
+			var API_URL = 'https://rata.digitraffic.fi/api/v1/'
+
+			Vue.component('train', {
+			  template: `
+					<div class="col col-md-3" v-if="trainDetail.hasOwnProperty('journeySections')">
+						<div class="panel panel-primary" >
+								<div class="panel-heading">
+									<h3 class="panel-title text-center">{{trainDetail.trainType}}{{trainDetail.trainNumber}} {{trainDetail.journeySections[0].beginTimeTableRow.stationShortCode}} <span class="glyphicon glyphicon-transfer" aria-hidden="true"></span> {{trainDetail.journeySections[0].endTimeTableRow.stationShortCode}}</h3>
+								</div>
+								<div class="panel-body">
+									<ul>
+										<li>Locomotive: {{trainDetail.journeySections[0].locomotives[0].locomotiveType}}-{{trainDetail.journeySections[0].locomotives[0].powerType}}</li>
+										<li>Wagons: <span v-for="wagon in trainDetail.journeySections[0].wagons">{{wagon.wagonType}} </span> <span>{{trainDetail.journeySections[0].totalLength}}metres</span>
+										</li>
+										<li>Max speed: {{trainDetail.journeySections[0].maximumSpeed}}KM/H</li>
+									</ul>
+								</div>
+						</div>
+					</div>
+				`,
+				props: ['train'],
+				data: function () {
+					return {
+						trainDetail: {}
+					}
+				},
+				created: function (){
+						this.initTrainDetail()
+				},
+				methods: {
+					initTrainDetail: function () {
+						let self = this
+						self.getTrainDetail(self.train).then(object => {
+							self.trainDetail = object
+						}).catch(e => { self.trainDetail = {} })
+					},
+					getTrainDetail: function (train) {
+						let query = 'compositions/' + train.trainNumber
+						let options = { params : {'departure_date': train.departureDate}}
+						return new Promise((resolve, reject) => {
+							this.$http.get(API_URL + query, options)
+								.then(response => {
+									// console.log('max speed ' + response.body.journeySections[0].maximumSpeed)
+									resolve(response.body)
+								})
+								.catch(response => {
+									reject('Cannot get Train Detail ' + response)
+								})
+						})
+					}
+				}
+			})
+
+			var app = new Vue({
+				el: '#app',
+				data: {
+					message: 'Hello Vue!',
+					selectedStation: '',
+					stationList: [],
+					trainList: [],
+					selectedTrainNumber: '',
+					trains: []
+				},
+				created: function () {
+					this.initStations()
+				},
+				watch: {
+					selectedStation: function(newSelectedStation) {
+						let self = this
+						self.getTrainList(newSelectedStation).then(list => {
+							self.trainList = list
+						})
+						.catch(e => {
+							console.log(e)
+						})
+					}
+				},
+				methods: {
+					initStations: function () {
+						let self = this
+						self.getStationList().then(list => {
+							self.stationList = list
+						}).catch(e => {
+							console.log(e)
+						})
+					},
+					getTrainList: function (selectedStation) {
+						let query = 'live-trains'
+						let options = { params : {'station': selectedStation}}
+						let trainList = []
+
+						return new Promise((resolve, reject) => {
+								// get https://rata.digitraffic.fi/api/v1/live-trains?station=this.selectedStation
+								this.$http.get(API_URL + query, options).then(response => {
+										trainList = response.body.map(function(train){
+												return {'trainNumber': train.trainNumber, 'departureDate': train.departureDate}
+										})
+										resolve(trainList)
+								})
+								.catch(response => {
+										reject('Cannot get Train List ' + response)
+								})
+						})
+					},
+					getStationList: function () {
+						let query = 'metadata/stations'
+						let options = {}
+						let stationList = []
+
+						return new Promise((resolve, reject) => {
+							// get https://rata.digitraffic.fi/api/v1/metadata/stations?
+							this.$http.get(API_URL + query, options).then(response => {
+									stationList = response.body.map(function(station){
+										return {'stationName': station.stationName, 'stationShortCode': station.stationShortCode}
+								})
+								resolve(stationList)
+							})
+							.catch(response => {
+								reject('Cannot get StationList ' + response)
+							})
+						})
+					}
+				}
+			})
+
+		</script>
+	</body>
+	<hr>
+	<small><center>footer - copyright 2017- VuNguyen</center></small>
+
+</html>
