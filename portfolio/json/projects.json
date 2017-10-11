@@ -9,19 +9,19 @@
   },
   {
     "index": 1,
-    "projectName": "Phone Store",
-    "technology": "Angular 1.X, HTML,CSS,Bootstrap",
-    "image": "images/project-thumbnail/phone-store.png",
-    "github": "https://github.com/trachanh1609/phonelist",
-    "live": "http://www.vufinland.com/phonelist"
-  },
-  {
-    "index": 2,
     "projectName": "Task List",
     "technology": "MEAN stack with Angular 2",
     "image": "images/project-thumbnail/task-list.png",
     "github": "https://github.com/trachanh1609/Vu-task-list",
     "live": "https://vu-task-list.herokuapp.com"
+  },
+  {
+    "index": 2,
+    "projectName": "Phone Store",
+    "technology": "Angular 1.X, HTML,CSS,Bootstrap",
+    "image": "images/project-thumbnail/phone-store.png",
+    "github": "https://github.com/trachanh1609/phonelist",
+    "live": "http://www.vufinland.com/phonelist"
   },
   {
     "index": 3,
@@ -30,6 +30,30 @@
     "image": "images/project-thumbnail/game-list.png",
     "github": "https://github.com/trachanh1609/gamelist",
     "live":""
+  },
+  {
+    "index": 11,
+    "projectName": "Google Book Search",
+    "technology": "jQuery, REST API",
+    "image": "images/project-thumbnail/game-list.png",
+    "github": "",
+    "live":"https://trachanh1609.github.io/portfolio/projects/BookSearch/"
+  },
+  {
+    "index": 12,
+    "projectName": "Repo List",
+    "technology": "VueJS, REST API",
+    "image": "images/project-thumbnail/game-list.png",
+    "github": "",
+    "live":"https://trachanh1609.github.io/portfolio/projects/RepoList/"
+  },
+  {
+    "index": 13,
+    "projectName": "Train List",
+    "technology": "VueJS, REST API",
+    "image": "images/project-thumbnail/game-list.png",
+    "github": "",
+    "live":"https://trachanh1609.github.io/portfolio/projects/TrainList/"
   },
   {
     "index": 4,
