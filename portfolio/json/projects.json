@@ -16,12 +16,12 @@
     "live": "https://vu-task-list.herokuapp.com"
   },
   {
-    "index": 2,
-    "projectName": "Phone Store",
-    "technology": "Angular 1.X, HTML,CSS,Bootstrap",
-    "image": "images/project-thumbnail/phone-store.png",
-    "github": "https://github.com/trachanh1609/phonelist",
-    "live": "http://www.vufinland.com/phonelist"
+    "index": 8,
+    "projectName": "Finding a teammate",
+    "technology": "VueJS, REST API",
+    "image": "images/project-thumbnail/DreamTeam.png",
+    "github": "https://gitlab.com/trachanh1609/dreamteam",
+    "live": ""
   },
   {
     "index": 3,
@@ -35,7 +35,7 @@
     "index": 11,
     "projectName": "Google Book Search",
     "technology": "jQuery, REST API",
-    "image": "images/project-thumbnail/game-list.png",
+    "image": "images/project-thumbnail/booksearch.png",
     "github": "",
     "live":"https://trachanh1609.github.io/portfolio/projects/BookSearch/"
   },
@@ -43,17 +43,41 @@
     "index": 12,
     "projectName": "Repo List",
     "technology": "VueJS, REST API",
-    "image": "images/project-thumbnail/game-list.png",
-    "github": "",
+    "image": "images/project-thumbnail/repolist.png",
+    "github": "https://github.com/trachanh1609/gitRepoList",
     "live":"https://trachanh1609.github.io/portfolio/projects/RepoList/"
   },
   {
     "index": 13,
     "projectName": "Train List",
     "technology": "VueJS, REST API",
-    "image": "images/project-thumbnail/game-list.png",
+    "image": "images/project-thumbnail/trainlist.png",
     "github": "",
     "live":"https://trachanh1609.github.io/portfolio/projects/TrainList/"
+  },
+  {
+    "index": 14,
+    "projectName": "Bookstore",
+    "technology": "Java Spring Backend, REST API",
+    "image": "images/project-thumbnail/bookstore.png",
+    "github": "https://github.com/trachanh1609/bookstore",
+    "live":"https://bookstore-vu.herokuapp.com/"
+  },
+  {
+    "index": 15,
+    "projectName": "SlackBot",
+    "technology": "Microservices",
+    "image": "images/project-thumbnail/slackbot.png",
+    "github": "https://github.com/trachanh1609/microviima",
+    "live":""
+  },
+  {
+    "index": 2,
+    "projectName": "Phone Store",
+    "technology": "Angular 1.X, HTML,CSS,Bootstrap",
+    "image": "images/project-thumbnail/phone-store.png",
+    "github": "https://github.com/trachanh1609/phonelist",
+    "live": "http://www.vufinland.com/phonelist"
   },
   {
     "index": 4,
@@ -86,14 +110,6 @@
     "image": "images/project-thumbnail/matikainenoy.png",
     "github": "",
     "live": "http://www.matikainenoy.fi"
-  },
-  {
-    "index": 8,
-    "projectName": "Finding a teammate",
-    "technology": "VueJS, REST API",
-    "image": "images/project-thumbnail/DreamTeam.png",
-    "github": "https://gitlab.com/trachanh1609/dreamteam",
-    "live": ""
   },
   {
     "index": 9,
