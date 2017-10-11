@@ -186,7 +186,7 @@
         function showInfo(index){
 
           $.getJSON("json/projects.json", function(data){
-            var selectedProject = data.filter(selectedProject(index))[0];
+            var selectedProject = data.filter(filterProject(index))[0];
             // console.log(data[index].projectName)
             // $('#InfoModalLabel').text(data[index].projectName)
             // $('#InfoModalImg').attr("src",data[index].image)
@@ -202,7 +202,7 @@
           $('#InfoModal').modal('toggle')
         }
 
-        function selectedProject(selectedIndex) {
+        function filterProject(selectedIndex) {
             return function(project) {
                 return project.index === selectedIndex;
             }
