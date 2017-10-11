@@ -101,6 +101,7 @@ function getAndDisplayFromServer() {
             method: "GET",
             // url: "http://api.openweathermap.org/data/2.5/find?appid=ffe74f6475c14517ef5e80fe8df0b7d6",
             url: "http://api.openweathermap.org/data/2.5/find?appid=0b96668615bb92609290fa424719a2ea",
+            dataType : "jsonp",
             data: {
                 lat: 60.169847,
                 lon: 24.938340,
