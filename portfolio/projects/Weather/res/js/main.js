@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+    $("#description").hide();
+
     $("#toggleButton").click(function(){
       $("#description").slideToggle();
     })
