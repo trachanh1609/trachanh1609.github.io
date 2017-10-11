@@ -72,6 +72,14 @@
     "live":""
   },
   {
+    "index": 16,
+    "projectName": "Weather near Helsinki",
+    "technology": "jQuery, openmapweather",
+    "image": "images/project-thumbnail/weather.png",
+    "github": "",
+    "live":"https://trachanh1609.github.io/portfolio/projects/Weather/"
+  },
+  {
     "index": 2,
     "projectName": "Phone Store",
     "technology": "Angular 1.X, HTML,CSS,Bootstrap",
