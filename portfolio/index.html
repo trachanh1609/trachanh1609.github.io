@@ -186,15 +186,28 @@
         function showInfo(index){
 
           $.getJSON("json/projects.json", function(data){
-            console.log(data[index].projectName)
-            $('#InfoModalLabel').text(data[index].projectName)
-            $('#InfoModalImg').attr("src",data[index].image)
-            $('#InfoModalBody').text(data[index].technology)
+            var selectedProject = data.filter(selectedProject(index))[0];
+            // console.log(data[index].projectName)
+            // $('#InfoModalLabel').text(data[index].projectName)
+            // $('#InfoModalImg').attr("src",data[index].image)
+            // $('#InfoModalBody').text(data[index].technology)
+
+            console.log(selectedProject.projectName)
+            $('#InfoModalLabel').text(selectedProject.projectName)
+            $('#InfoModalImg').attr("src",selectedProject.image)
+            $('#InfoModalBody').text(selectedProject.technology)
 
           })
 
           $('#InfoModal').modal('toggle')
         }
+
+        function selectedProject(selectedIndex) {
+            return function(project) {
+                return project.index === selectedIndex;
+            }
+        }
+
 
     </script>
 
