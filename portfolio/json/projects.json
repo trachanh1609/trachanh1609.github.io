@@ -8,6 +8,14 @@
     "live": ""
   },
   {
+    "index": 17,
+    "projectName": "Pizza Restaurant",
+    "technology": "VueJS, Vuex, Vue-router, Firebase",
+    "image": "images/project-thumbnail/pizzarestaurant.png",
+    "github": "https://github.com/trachanh1609/pizza-restaurant",
+    "live":"https://trachanh1609.github.io/pizzarestaurant.html"
+  },
+  {
     "index": 1,
     "projectName": "Task List",
     "technology": "MEAN stack with Angular 2",
