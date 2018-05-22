@@ -8,10 +8,10 @@
     "website": "https://trachanh1609.github.io/en/portfolio",
     "summary": "&quot;The only way to do great work is to love what you do&quot;- Steve Jobs.It took me almost a decade to realize how important it is to do what I love in order to enjoy and achieve great work. It also took me about 2 years to find out what kind of work I enjoy doing. Since I switched my career to software development, I have been enjoying the journey so far and the future is really potential and bright.",
     "location": {
-      "address": "Parivaljakontie 2",
-      "postalCode": "00410",
+      "address": "Parivaljakontie 6",
+      "postalCode": "",
       "city": "Helsinki",
-      "countryCode": "Finland",
+      "countryCode": "",
       "region": ""
     },
     "profiles": [
@@ -29,17 +29,27 @@
   },
   "work": [
     {
+      "company": "Devecto Oy",
+      "position": "Junior Software Developer",
+      "website": "https://devecto.com",
+      "startDate": "2018-1",
+      "endDate": "",
+      "summary": "Consultant",
+      "highlights": [
+      ]
+    },
+    {
       "company": "Meetingpackage",
       "position": "Frontend Developer",
       "website": "https://meetingpackage.com",
       "startDate": "2017-8",
-      "endDate": "",
+      "endDate": "2017-11",
       "summary": "",
       "highlights": [
-        "UX/UI design for the venue page",
-        "Create a mockup html of the venue page with some fake data, using VueJS",
-        "Testing and Test documentation",
-        "Fix the date time picker to work with multi languages"
+        "Develop new features",
+        "Fix bugs",
+        "Design UX/UI and create a mockup for the venue page",
+        "Test and write test documentation"
       ]
     },
     {
@@ -50,11 +60,19 @@
       "endDate": "2017-5",
       "summary": "",
       "highlights": [
-        "Front-end developer in a team of 2 people",
-        "Together with the CTO, built a working web application for managing vehicles and payment from scratch in 3 weeks ( specifications are already in CTO's head, UI polishing and further improvement continue after that).",
-        "Researching and giving input about the technology to be used for the web application, mobile application",
+        "Together with the CTO, built a working web application for managing vehicles and payment from scratch.",
         "Updating UI for the mobile app and making some small changes as required",
         "Responsible for the company's website ( Wordpress), from choosing the theme to the final version"
+      ]
+    },
+    {
+      "company": "VNV Siivous",
+      "position": "Business owner",
+      "website": "",
+      "startDate": "2013-4",
+      "endDate": "2016-4",
+      "summary": "One man business: Paper works, website, marketing, cleaning etc",
+      "highlights": [
       ]
     },
     {
@@ -65,8 +83,10 @@
       "endDate": "2013-1",
       "summary": "",
       "highlights": [
-        "For a Telecom Company client: automation testing for router's software. Working in Lab, building up, configuring, troubleshooting routers, switches, networks, traffic generators and other testing devices. Writing test script using TCL scripting language. Installing, testing software, finding and reporting bugs",
-        "For another client: automation tests for web application testing. Using Python, Robotframework, Selenium for automation tests."
+        "Automation testing for router's software.",
+        "Working in Lab, building up, configuring, troubleshooting routers, switches, networks, traffic generators and other testing devices.",
+        "Writing test script. Installing, testing software, finding and reporting bugs",
+        "Automation testing for web application using Robotframework, Selenium."
       ]
     },
     {
@@ -78,7 +98,7 @@
       "summary": "",
       "highlights": [
         "Manual testing clinical system, patient monitors",
-        "Installing, testing software, finding and reporting bugs"
+        "Installing, testing and reporting bugs"
       ]
     }
   ],
@@ -89,11 +109,8 @@
       "website": "",
       "startDate": "2011-04-01",
       "endDate": "2014-12-01",
-      "summary": "Leading the association as a president",
+      "summary": "Leading the association as a president. Organising events",
       "highlights": [
-        "Leading the Board of Directors(6 members) to solve problems of the association such as organizational structure, responsibilities of each member, funding, conflict between members",
-        "Decision making, being the contact person to other organizations/partners.",
-        "Organising events such as cultural events, sport events, educational events"
       ]
     },
     {
@@ -102,11 +119,8 @@
       "website": "",
       "startDate": "2010-12",
       "endDate": "2013-9",
-      "summary": "Practising Public Speaking and Leadership Skills. Attending meetings every other week",
+      "summary": "Practising Public Speaking and Leadership Skills. Delivering speeches, giving feedbacks",
       "highlights": [
-        "Delivering speeches",
-        "Evaluating/Giving feedbacks to other members speeches",
-        "Organising summer party"
       ]
     }
   ],
@@ -119,15 +133,10 @@
       "endDate": "",
       "gpa": "",
       "courses": [
-        "Foundations of Programming: Object-Oriented Design",
-        "Shaping up with Angular.js",
-        "Accelerating Through Angular 2",
-        "NodeJS",
-        "ExpressJS",
-        "MongoDB",
-        "ReactJS",
-        "SASS",
-        "Testing"
+        "Lynda.com",
+        "Codeschool",
+        "PluralSight",
+        "Udemy"
       ]
     },
     {
@@ -152,24 +161,39 @@
       "keywords": [
         "Python",
         "Javascript",
-        "HTML",
-        "CSS",
-        "jQuery",
         "Git",
+        "UX/UI fundamentals",
         "Bootstrap",
-        "Wordpress",
-        "NodeJS",
-        "ExpressJS",
-        "MongoDB"
+        "Material UI",
+        "Wordpress"
       ]
     },
     {
-      "name": "Frontend Frameworks",
+      "name": "Frameworks",
       "level": "",
       "keywords": [
         "VueJS",
         "AngularJS",
-        "ReactJs"
+        "ReactJs",
+        "React-Native",
+        "Quasar",
+        "Express",
+        "Django",
+        "Spring Boot"
+      ]
+    },
+    {
+      "name": "Tools I have experimented",
+      "level": "",
+      "keywords": [
+        "Raspberry Pi",
+        "Arduino",
+        "Unity3D",
+        "C",
+        "C++",
+        "Java",
+        "C#",
+        "PHP"
       ]
     }
   ],
@@ -189,20 +213,19 @@
   ],
   "interests": [
     {
-      "name": "Things to Learn",
+      "name": "Hackathons that I have attended",
       "keywords": [
-        "IoT",
-        "Mobile App Development",
-        "UI/UX basic"
+        "Ultrahack",
+        "Junction",
+        "AngelHack",
+        "IoT Hack in MSFlux"
       ]
     },
     {
       "name": "Hobbies",
       "keywords": [
         "Guitar",
-        "Harmonica",
-        "Football",
-        "Billiards"
+        "Football"
       ]
     }
   ],
