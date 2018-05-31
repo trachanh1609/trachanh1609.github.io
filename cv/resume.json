@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Vu Nguyen",
-    "label": "Frontend Developer",
+    "label": "web Developer",
     "picture": "images/vu.jpg",
     "email": "trachanh@gmail.com",
     "phone": "+358 442048050",
@@ -30,11 +30,11 @@
   "work": [
     {
       "company": "Devecto Oy",
-      "position": "Junior Software Developer",
+      "position": "Software Developer",
       "website": "https://devecto.com",
       "startDate": "2018-1",
       "endDate": "",
-      "summary": "Consultant",
+      "summary": "Unity3D, Raspberry Pi, Arduino, ReactNative mobile app.",
       "highlights": [
       ]
     },
@@ -218,14 +218,23 @@
         "Ultrahack",
         "Junction",
         "AngelHack",
-        "IoT Hack in MSFlux"
+        "IoT Hack in MSFlux",
+        "Robots against human"
       ]
     },
     {
-      "name": "Hobbies",
+      "name": "Actively attending events in",
+      "keywords": [
+        "HelsinkiJS Group",
+        "React Helsinki Group"
+      ]
+    },
+    {
+      "name": "Others",
       "keywords": [
         "Guitar",
-        "Football"
+        "Football",
+        "Startup world and entrepreneurship"
       ]
     }
   ],
