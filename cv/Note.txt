@@ -1,6 +1,13 @@
 $ resume export index.html -t elegant
 
 1.
+
+<div class="detail"><span class="icon"><i class="icon fs-lg icon-link"></i></span><span class="info">
+    <a href="https://trachanh1609.github.io/en/portfolio" target="_blank">My Porfolio</a></span>
+</div>
+
+
+
 <div class="social-links text-center">
   <div>
       <a class="fs-2x social-link link-github icon-github" href="https://github.com/trachanh1609" target="_blank" data-toggle="tooltip" title="Vu Nguyen on Github"></a>
@@ -12,9 +19,11 @@ $ resume export index.html -t elegant
 
 2.
 @media (max-width: 992px) and (min-width: 768px) {
-  .contact-details .detail {
-    float: left;
-    width: 33.3%;
+            .contact-details .detail {
+                float: left;
+                width: 33.3%;    // Change from 25% to 33.3% so it looks better
+            }
+}
 
 <li> <br> </li>
 <li> <br> </li>

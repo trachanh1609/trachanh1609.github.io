@@ -1,14 +1,14 @@
 {
   "basics": {
     "name": "Vu Nguyen",
-    "label": "Frontend Developer",
+    "label": "Fullstack Developer",
     "picture": "images/vu.jpg",
     "email": "trachanh@gmail.com",
     "phone": "+358 442048050",
     "website": "https://trachanh1609.github.io/en/portfolio",
-    "summary": "&quot;The only way to do great work is to love what you do&quot;- Steve Jobs.It took me almost a decade to realize how important it is to do what I love in order to enjoy and achieve great work. It also took me about 2 years to find out what kind of work I enjoy doing. Since I switched my career to software development, I have been enjoying the journey so far and the future is really potential and bright.",
+    "summary": "I am a Frontend/SW developer who loves to see the big picture but I can also work in great details. I am passionate about technologies, entrepreneurship and personal development. Over the years, I have participated in many hackathons such as Junction, AngelHack, UltraHack, Iot Hackathon, Robot against Humanity Hackathon. I also belonged to a winning team in Junction 2017 and got a ticket to attend Slush 2017. I am constantly and actively improving my skills in software development through learning online courses, attending hackathons, participating tech meetups like HelsinkiJS/ReactJS and I am helping other people to get into software development in coding clubs.",
     "location": {
-      "address": "Parivaljakontie 2",
+      "address": "Parivaljakontie 6",
       "postalCode": "00410",
       "city": "Helsinki",
       "countryCode": "Finland",
@@ -29,40 +29,58 @@
   },
   "work": [
     {
+      "company": "Devecto Oy",
+      "position": "Software Developer",
+      "website": "https://devecto.com",
+      "startDate": "2018-01-01",
+      "summary": "Fullstack web development on inhouse and customer projects using ReactJS, NodeJS, MySQL, MongoDB, deploying to Azure cloud, mobile app development with React-Native",
+      "highlights": [
+      ]
+    },
+    {
       "company": "Meetingpackage",
       "position": "Frontend Developer",
       "website": "https://meetingpackage.com",
-      "startDate": "2017-8",
-      "endDate": "",
+      "startDate": "2017-08-01",
+      "endDate": "2017-11-01",
       "summary": "",
       "highlights": [
-        "UX/UI design for the venue page",
-        "Create a mockup html of the venue page with some fake data, using VueJS",
-        "Testing and Test documentation",
-        "Fix the date time picker to work with multi languages"
+        "Developing a feature for web application that receives the enquiry from users, sends enquiry data to the backend using Drupal PHP and stores in MySQL database, admin can manage all enquiries through admin dashboard. Users need to fill in multiple step form, the transition between steps was smooth and UI was decent, at certain steps user data is sent and stored in the database without interrupting user flow",
+        "Writing user story and designing new UI for the venue page to clear out user confusion of different packages. After that developing a mockup page with VueJS to get some feedbacks from coworkers"
       ]
     },
     {
       "company": "Autonappi",
       "position": "Frontend Developer",
       "website": "http://www.autonappi.fi",
-      "startDate": "2017-2",
-      "endDate": "2017-5",
+      "startDate": "2017-02-17",
+      "endDate": "2017-05-27",
       "summary": "",
       "highlights": [
-        "Front-end developer in a team of 2 people",
-        "Together with the CTO, built a working web application for managing vehicles and payment from scratch in 3 weeks ( specifications are already in CTO's head, UI polishing and further improvement continue after that).",
-        "Researching and giving input about the technology to be used for the web application, mobile application",
-        "Updating UI for the mobile app and making some small changes as required",
-        "Responsible for the company's website ( Wordpress), from choosing the theme to the final version"
+        "Working directly with the CTO to build a web application from scratch using VueJS framework, Bootstrap UI. The application is for fleet managers, cars owners to manage vehicles and payment.",
+        "Researching and consulting the CTO on different technologies that can be used for building web application, mobile application.",
+        "Designing and developing new UI for the mobile app. The new UI looks completely different from the previous version and received praises from CEO and managers.",
+        "Building new website for the company using WordPress. The previous website was built using web builder which has some limitations. The new website has reduced the website monthly cost for the company and helped gaining more controls on the website."
+      ]
+    },
+    {
+      "company": "VNV Siivous",
+      "position": "Business Owner",
+      "website": "",
+      "startDate": "2013-04-01",
+      "endDate": "2016-04-01",
+      "summary": "",
+      "highlights": [
+        "Establishing the company from scratch, handling all paper works for instance tax payment, invoices, book keeping, pension and insurance.",
+        "Financing, marketing, customer service, maintaining company’s website etc"
       ]
     },
     {
       "company": "KnowIT Oy",
       "position": "Testing Consultant",
       "website": "https://www.knowit.fi",
-      "startDate": "2010-5",
-      "endDate": "2013-1",
+      "startDate": "2010-05-12",
+      "endDate": "2013-01-24",
       "summary": "",
       "highlights": [
         "For a Telecom Company client: automation testing for router's software. Working in Lab, building up, configuring, troubleshooting routers, switches, networks, traffic generators and other testing devices. Writing test script using TCL scripting language. Installing, testing software, finding and reporting bugs",
@@ -73,8 +91,8 @@
       "company": "Endero Oy",
       "position": "Testing Consultant",
       "website": "",
-      "startDate": "2008-4",
-      "endDate": "2009-3",
+      "startDate": "2008-04-01",
+      "endDate": "2009-03-01",
       "summary": "",
       "highlights": [
         "Manual testing clinical system, patient monitors",
@@ -100,8 +118,8 @@
       "organization": "Toastmaster International",
       "position": "Member",
       "website": "",
-      "startDate": "2010-12",
-      "endDate": "2013-9",
+      "startDate": "2010-12-01",
+      "endDate": "2013-09-01",
       "summary": "Practising Public Speaking and Leadership Skills. Attending meetings every other week",
       "highlights": [
         "Delivering speeches",
@@ -115,8 +133,7 @@
       "institution": "Online",
       "area": "Web Development",
       "studyType": "Self learning",
-      "startDate": "2015-6",
-      "endDate": "",
+      "startDate": "2015-06-01",
       "gpa": "",
       "courses": [
         "Foundations of Programming: Object-Oriented Design",
@@ -134,8 +151,8 @@
       "institution": "Metropolia University of Applied Sciences",
       "area": "Information Technology",
       "studyType": "Bachelor",
-      "startDate": "Sep-2005",
-      "endDate": "June-2011",
+      "startDate": "2005-09-01",
+      "endDate": "2011-06-23",
       "gpa": "",
       "courses": [
         "Software Engineer",
@@ -157,19 +174,31 @@
         "jQuery",
         "Git",
         "Bootstrap",
+        "Material",
         "Wordpress",
         "NodeJS",
-        "ExpressJS",
-        "MongoDB"
+        "MongoDB",
+        "MySQL",
+        "Firebase",
+        "REST API",
+        "GraphQL",
+        "Azure",
+        "Heroku",
+        "UX/UI Fundamentals"
       ]
     },
     {
-      "name": "Frontend Frameworks",
+      "name": "Frameworks",
       "level": "",
       "keywords": [
-        "VueJS",
+        "VueJS & Vuex",
+        "Quasar",
+        "ReactJs & Redux",
+        "React Native",
         "AngularJS",
-        "ReactJs"
+        "Express",
+        "Django",
+        "Spring Boot"
       ]
     }
   ],
@@ -189,20 +218,13 @@
   ],
   "interests": [
     {
-      "name": "Things to Learn",
-      "keywords": [
-        "IoT",
-        "Mobile App Development",
-        "UI/UX basic"
-      ]
-    },
-    {
       "name": "Hobbies",
       "keywords": [
         "Guitar",
         "Harmonica",
         "Football",
-        "Billiards"
+        "Billiards",
+        "Drawing"
       ]
     }
   ],
