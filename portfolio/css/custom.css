@@ -34,7 +34,7 @@
 
 .content_box {
   color: white;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 .content_box h2 {
     overflow: hidden;
@@ -70,7 +70,7 @@
 }
 .content_box .last{
   border-bottom: 3px solid white;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 
