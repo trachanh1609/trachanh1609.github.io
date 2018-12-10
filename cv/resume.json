@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Vu Nguyen",
-    "label": "Fullstack Developer",
+    "label": "Junction/UltraHack Winner",
     "picture": "images/vu.jpg",
     "email": "trachanh@gmail.com",
     "phone": "+358 442048050",
-    "website": "https://trachanh1609.github.io/en/portfolio",
-    "summary": "I am a Frontend/SW developer who loves to see the big picture but I can also work in great details. I am passionate about technologies, entrepreneurship and personal development. Over the years, I have participated in many hackathons such as Junction, AngelHack, UltraHack, Iot Hackathon, Robot against Humanity Hackathon. I also belonged to a winning team in Junction 2017 and got a ticket to attend Slush 2017. I am constantly and actively improving my skills in software development through learning online courses, attending hackathons, participating tech meetups like HelsinkiJS/ReactJS and I am helping other people to get into software development in coding clubs.",
+    "website": "https://trachanh1609.github.io/portfolio",
+    "summary": "I am a Frontend/Fullstack developer who loves to see the big picture but I can also work in great details. I am passionate about technologies, entrepreneurship and personal development. Over the years, I have participated in many hackathons such as Junction, AngelHack, UltraHack, Iot Hackathon, Robot against Humanity Hackathon. In Junction 2017 our team won the first prize in one of the companies challenges and got a ticket to attend Slush 2017. This year 2018 our team (different members) won the first prize in UltraHack Sprint II with the prize of 7000e and 2 Slush tickets. Further development of the project will be supported by VTT and UN. I am constantly and actively improving my skills in software development through learning online courses, attending hackathons, participating tech meetups like HelsinkiJS/ReactJS and I am helping other people to get into software development in coding clubs.",
     "location": {
       "address": "Parivaljakontie 6",
       "postalCode": "00410",
