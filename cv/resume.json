@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Vu Nguyen",
-    "label": "Junction/UltraHack Winner",
+    "label": "Fullstack developer",
     "picture": "images/vu.jpg",
     "email": "trachanh@gmail.com",
     "phone": "+358 442048050",
     "website": "https://trachanh1609.github.io/portfolio",
-    "summary": "I am a Frontend/Fullstack developer who loves to see the big picture but I can also work in great details. I am passionate about technologies, entrepreneurship and personal development. Over the years, I have participated in many hackathons such as Junction, AngelHack, UltraHack, Iot Hackathon, Robot against Humanity Hackathon. In Junction 2017 our team won the first prize in one of the companies challenges and got a ticket to attend Slush 2017. This year 2018 our team (different members) won the first prize in UltraHack Sprint II with the prize of 7000e and 2 Slush tickets. Further development of the project will be supported by VTT and UN. I am constantly and actively improving my skills in software development through learning online courses, attending hackathons, participating tech meetups like HelsinkiJS/ReactJS and I am helping other people to get into software development in coding clubs.",
+    "summary": "I am a Fullstack developer who loves to see the big picture but I can also work in great details. I am passionate about technologies, entrepreneurship and personal development. Over the years, I have participated in many hackathons such as Junction, AngelHack, UltraHack, Iot Hackathon, Robot against Humanity Hackathon. In Junction 2017 I was in a team of 4 who won the first prize in one of the companies challenges and got a ticket to attend Slush 2017. In 2018 I was in a team of 3 and we won the first prize in UltraHack Sprint II with the prize of 7000e and 2 Slush tickets. Further development of the project will be supported by VTT and UN. I am constantly and actively improving my skills in software development through learning online courses, attending hackathons, participating tech meetups like HelsinkiJS/ReactJS and I am helping other people to get into software development in coding clubs.",
     "location": {
       "address": "Parivaljakontie 6",
       "postalCode": "00410",
@@ -29,10 +29,20 @@
   },
   "work": [
     {
+      "company": "Startup Catapult",
+      "position": "Fullstack Developer",
+      "website": "https://catapult.guru",
+      "startDate": "2019-01-01",
+      "summary": "Fullstack web development for Catapult Platform. I am working mainly in Django, Postgres and Angular 8.",
+      "highlights": [
+      ]
+    },
+    {
       "company": "Devecto Oy",
       "position": "Software Developer",
       "website": "https://devecto.com",
       "startDate": "2018-01-01",
+      "endDate": "2018-12-22",
       "summary": "Fullstack web development on inhouse and customer projects using ReactJS, NodeJS, MySQL, MongoDB, deploying to Azure cloud, mobile app development with React-Native",
       "highlights": [
       ]
@@ -45,8 +55,7 @@
       "endDate": "2017-11-01",
       "summary": "",
       "highlights": [
-        "Developing a feature for web application that receives the enquiry from users, sends enquiry data to the backend using Drupal PHP and stores in MySQL database, admin can manage all enquiries through admin dashboard. Users need to fill in multiple step form, the transition between steps was smooth and UI was decent, at certain steps user data is sent and stored in the database without interrupting user flow",
-        "Writing user story and designing new UI for the venue page to clear out user confusion of different packages. After that developing a mockup page with VueJS to get some feedbacks from coworkers"
+        "Developing a feature for web application both frontend and backend, users can send enquiry data to the backend using Drupal PHP/MySQL, admin can manage all enquiries through admin dashboard."
       ]
     },
     {
@@ -191,11 +200,11 @@
       "name": "Frameworks",
       "level": "",
       "keywords": [
-        "VueJS & Vuex",
+        "Vue",
         "Quasar",
-        "ReactJs & Redux",
+        "React",
         "React Native",
-        "AngularJS",
+        "Angular",
         "Express",
         "Django",
         "Spring Boot"
