@@ -8,8 +8,8 @@
     "website": "https://trachanh1609.github.io/portfolio",
     "summary": "I am a Fullstack developer who loves to see the big picture but I can also work in great details. I am passionate about technologies, entrepreneurship and personal development. Over the years, I have participated in many hackathons such as Junction, AngelHack, UltraHack, Iot Hackathon, Robot against Humanity Hackathon. In Junction 2017 I was in a team of 4 who won the first prize in one of the companies challenges and got a ticket to attend Slush 2017. In 2018 I was in a team of 3 and we won the first prize in UltraHack Sprint II with the prize of 7000e and 2 Slush tickets. Further development of the project will be supported by VTT and UN. I am constantly and actively improving my skills in software development through learning online courses, attending hackathons, participating tech meetups like HelsinkiJS/ReactJS and I am helping other people to get into software development in coding clubs.",
     "location": {
-      "address": "Parivaljakontie 6",
-      "postalCode": "00410",
+      "address": "Pelimannintie 24",
+      "postalCode": "00420",
       "city": "Helsinki",
       "countryCode": "Finland",
       "region": ""
@@ -31,9 +31,9 @@
     {
       "company": "Startup Catapult",
       "position": "Fullstack Developer",
-      "website": "https://catapult.guru",
+      "website": "https://catapult.fi",
       "startDate": "2019-01-01",
-      "summary": "Fullstack web development for Catapult Platform. I am working mainly in Django, Postgres and Angular 8.",
+      "summary": "Fullstack web development for Catapult Platform. I am working mainly in Django, Postgres, Angular and Elasticsearch.",
       "highlights": [
       ]
     },
@@ -80,8 +80,7 @@
       "endDate": "2016-04-01",
       "summary": "",
       "highlights": [
-        "Establishing the company from scratch, handling all paper works for instance tax payment, invoices, book keeping, pension and insurance.",
-        "Financing, marketing, customer service, maintaining company’s website etc"
+        "One-man business, handling all paper works, accounting, marketing, sales, customer service, cleaning, etc."
       ]
     },
     {
@@ -223,18 +222,6 @@
     {
       "language": "Finnish",
       "fluency": "Intermediate"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Hobbies",
-      "keywords": [
-        "Guitar",
-        "Harmonica",
-        "Football",
-        "Billiards",
-        "Drawing"
-      ]
     }
   ],
   "references": []
