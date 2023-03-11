@@ -5,7 +5,7 @@
     "picture": "images/vu.jpg",
     "email": "trachanh@gmail.com",
     "phone": "+358 442048050",
-    "website": "https://trachanh1609.github.io/portfolio",
+    "website": "",
     "summary": "I am a Fullstack developer who loves to see the big picture but I can also work in great details. I am passionate about technologies, entrepreneurship and personal development. Over the years, I have participated in many hackathons such as Junction, AngelHack, UltraHack, Iot Hackathon, Robot against Humanity Hackathon. In Junction 2017 I was in a team of 4 who won the first prize in one of the companies challenges and got a ticket to attend Slush 2017. In 2018 I was in a team of 3 and we won the first prize in UltraHack Sprint II with the prize of 7000e and 2 Slush tickets. Further development of the project will be supported by VTT and UN. I am constantly and actively improving my skills in software development through learning online courses, attending hackathons, participating tech meetups like HelsinkiJS/ReactJS and I am helping other people to get into software development in coding clubs.",
     "location": {
       "address": "Pelimannintie 24",
@@ -15,11 +15,6 @@
       "region": ""
     },
     "profiles": [
-      {
-        "network": "Github",
-        "username": "trachanh1609",
-        "url": "https://github.com/trachanh1609"
-      },
       {
         "network": "LinkedIn",
         "username": "anhvun",
@@ -35,6 +30,12 @@
       "startDate": "2019-01-01",
       "summary": "Fullstack web development for Catapult Platform. I am working mainly in Django, Postgres, Angular and Elasticsearch.",
       "highlights": [
+        "Designed, developed and maintained web applications features",
+        "Created RESTful APIs so external services can interact with the platform",
+        "Designed, implemented databases and developed backend services, wrote unit tests",
+        "Conducted code reviews, fixed bugs, improved UI/UX",
+        "Designed and implemented full-text search with operators like AND, OR, NOT, parentheses using Django and Postgres",
+        "Improved search performance by 10x by using Elasticsearch"
       ]
     },
     {
@@ -138,24 +139,6 @@
   ],
   "education": [
     {
-      "institution": "Online",
-      "area": "Web Development",
-      "studyType": "Self learning",
-      "startDate": "2015-06-01",
-      "gpa": "",
-      "courses": [
-        "Foundations of Programming: Object-Oriented Design",
-        "Shaping up with Angular.js",
-        "Accelerating Through Angular 2",
-        "NodeJS",
-        "ExpressJS",
-        "MongoDB",
-        "ReactJS",
-        "SASS",
-        "Testing"
-      ]
-    },
-    {
       "institution": "Metropolia University of Applied Sciences",
       "area": "Information Technology",
       "studyType": "Bachelor",
@@ -177,36 +160,16 @@
       "keywords": [
         "Python",
         "Javascript",
-        "HTML",
-        "CSS",
-        "jQuery",
+        "Typescript",
+        "SCSS",
         "Git",
-        "Bootstrap",
-        "Material",
-        "Wordpress",
-        "NodeJS",
-        "MongoDB",
-        "MySQL",
-        "Firebase",
-        "REST API",
-        "GraphQL",
-        "Azure",
-        "Heroku",
-        "UX/UI Fundamentals"
-      ]
-    },
-    {
-      "name": "Frameworks",
-      "level": "",
-      "keywords": [
-        "Vue",
-        "Quasar",
-        "React",
-        "React Native",
-        "Angular",
-        "Express",
+        "Docker",
         "Django",
-        "Spring Boot"
+        "NodeJS",
+        "Postgres",
+        "Angular",
+        "React",
+        "Vue"
       ]
     }
   ],

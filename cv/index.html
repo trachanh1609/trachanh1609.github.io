@@ -10,11 +10,11 @@
   <style>
     @font-face {
       font-family: 'icomoon';
-      src: url('fonts/icomoon.eot?9yug7q');
-      src: url('fonts/icomoon.eot?9yug7q#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?9yug7q') format('truetype'),
-        url('fonts/icomoon.woff?9yug7q') format('woff'),
-        url('fonts/icomoon.svg?9yug7q#icomoon') format('svg');
+      src: url('fonts/icomoon.eot?z1lat9');
+      src: url('fonts/icomoon.eot?z1lat9#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?z1lat9') format('truetype'),
+        url('fonts/icomoon.woff?z1lat9') format('woff'),
+        url('fonts/icomoon.svg?z1lat9#icomoon') format('svg');
       font-weight: normal;
       font-style: normal;
     }
@@ -35,24 +35,76 @@
       -moz-osx-font-smoothing: grayscale;
     }
 
-    .icon-instagram:before {
-      content: "\e905";
+    .icon-gitlab .path1:before {
+      content: "\e906";
+      color: rgb(252, 109, 38);
     }
 
-    .icon-trophy:before {
-      content: "\e605";
+    .icon-gitlab .path2:before {
+      content: "\e907";
+      margin-left: -1em;
+      color: rgb(226, 67, 41);
     }
 
-    .icon-office:before {
-      content: "\e606";
+    .icon-gitlab .path3:before {
+      content: "\e908";
+      margin-left: -1em;
+      color: rgb(252, 109, 38);
     }
 
-    .icon-clock:before {
-      content: "\e60a";
+    .icon-gitlab .path4:before {
+      content: "\e909";
+      margin-left: -1em;
+      color: rgb(252, 163, 38);
     }
 
-    .icon-reddit:before {
-      content: "\e609";
+    .icon-gitlab .path5:before {
+      content: "\e90a";
+      margin-left: -1em;
+      color: rgb(226, 67, 41);
+    }
+
+    .icon-gitlab .path6:before {
+      content: "\e90b";
+      margin-left: -1em;
+      color: rgb(252, 109, 38);
+    }
+
+    .icon-gitlab .path7:before {
+      content: "\e90c";
+      margin-left: -1em;
+      color: rgb(252, 163, 38);
+    }
+
+    .icon-gitlab .path8:before {
+      content: "\e90d";
+      margin-left: -1em;
+      color: rgb(226, 67, 41);
+    }
+
+    .icon-meetup .path1:before {
+      content: "\e901";
+      color: rgb(255, 255, 255);
+    }
+
+    .icon-meetup .path2:before {
+      content: "\e902";
+      margin-left: -1.5em;
+      color: rgb(240, 1, 1);
+    }
+
+    .icon-meetup .path3:before {
+      content: "\e903";
+      margin-left: -1.5em;
+      color: rgb(3, 3, 3);
+    }
+
+    .icon-blogger:before {
+      content: "\e900";
+    }
+
+    .icon-exercism:before {
+      content: "\e601";
     }
 
     .icon-telegram:before {
@@ -199,29 +251,24 @@
       content: "\f230";
     }
 
-    .icon-meetup .path1:before {
-      content: "\e901";
-      color: rgb(255, 255, 255);
+    .icon-instagram:before {
+      content: "\e905";
     }
 
-    .icon-meetup .path2:before {
-      content: "\e902";
-      margin-left: -1.5em;
-      color: rgb(240, 1, 1);
+    .icon-trophy:before {
+      content: "\e605";
     }
 
-    .icon-meetup .path3:before {
-      content: "\e903";
-      margin-left: -1.5em;
-      color: rgb(3, 3, 3);
+    .icon-office:before {
+      content: "\e606";
     }
 
-    .icon-blogger:before {
-      content: "\e900";
+    .icon-clock:before {
+      content: "\e60a";
     }
 
-    .icon-exercism:before {
-      content: "\e601";
+    .icon-reddit:before {
+      content: "\e609";
     }
 
     .icon-profile:before {
@@ -248,14 +295,6 @@
       content: "\e607";
     }
 
-    .icon-dots-three-horizontal:before {
-      content: "\e60b";
-    }
-
-    .icon-thumbs-up:before {
-      content: "\e604";
-    }
-
     .icon-chevron-down:before {
       content: "\e60c";
     }
@@ -275,7 +314,6 @@
     .icon-board:before {
       content: "\e608";
     }
-
 
     .relative {
       position: relative;
@@ -327,6 +365,18 @@
       margin-right: 0;
     }
 
+    .label-keyword p {
+      margin: 0;
+    }
+
+    .label-keyword a {
+      color: white;
+    }
+
+    .label-keyword a:hover {
+      text-decoration: none;
+    }
+
     .link-disguise {
       color: inherit;
     }
@@ -347,7 +397,7 @@
 
     .fs-lg {
       font-size: 1.33333333em;
-      line-height: .75em;
+      line-height: 0.75em;
       vertical-align: -15%;
     }
 
@@ -373,10 +423,11 @@
       outline: none !important;
     }
 
+    /* the version when the icon file is last updated */
     @font-face {
       font-family: 'jst-elegant';
-      src: url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.eot?f218wo");
-      src: url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
+      src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo");
+      src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
       font-weight: normal;
       font-style: normal;
     }
@@ -755,7 +806,7 @@
     @media (max-width: 992px) and (min-width: 768px) {
       .contact-details .detail {
         float: left;
-        width: 33.3%;
+        width: 25%;
       }
     }
 
@@ -1201,12 +1252,10 @@
           class="icon-bars"></i><span class="close-icon">&times;</span></a>
       <nav class="floating-nav js-floating-nav">
         <ul class="list-unstyled">
-          <li><a href="#about"><i class="mr-10 icon-board"></i>About</a></li>
           <li><a href="#work-experience"><i class="mr-10 icon-office"></i>Work Experience</a></li>
           <li><a href="#skills"><i class="mr-10 icon-tools"></i>Skills</a></li>
           <li><a href="#education"><i class="mr-10 icon-graduation-cap"></i>Education</a></li>
           <li><a href="#volunteer-work"><i class="mr-10 icon-child"></i>Volunteer Work</a></li>
-          <li><a href="#interests"><i class="mr-10 icon-heart"></i>Interests</a></li>
         </ul>
       </nav>
       <section class="col-md-3 card-wrapper profile-card-wrapper affix">
@@ -1221,15 +1270,12 @@
           <hr />
           <div class="contact-details clearfix">
             <div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span><span
-                class="info">Parivaljakontie 6, Helsinki, Finland, 00410</span></div>
+                class="info">Pelimannintie 24, Helsinki, Finland, 00420</span></div>
             <div class="detail"><span class="icon"><i class="icon fs-lg icon-phone"></i></span><span class="info"
                 itemprop="telephone">+358 442048050</span></div>
             <div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><a
                   class="link-disguise" href="mailto:trachanh@gmail.com" itemprop="email">trachanh@gmail.com</a></span>
             </div>
-            <div class="detail"><span class="icon"><i class="icon fs-lg icon-link"></i></span><span class="info"><a
-                  href="https://trachanh1609.github.io/portfolio"
-                  target="_blank">My Porfolio</a></span></div>
             <div class="detail"><span class="icon" title="Languages I speak"><i
                   class="icon fs-lg icon-language"></i></span><span class="info">English, Vietnamese, Finnish</span>
             </div>
@@ -1237,12 +1283,10 @@
           <hr />
           <div class="social-links text-center">
             <div>
-                <a class="fs-2x social-link link-github icon-github" href="https://github.com/trachanh1609" target="_blank" data-toggle="tooltip" title="Vu Nguyen on Github"></a>
-                <a class="fs-2x social-link link-linkedin icon-linkedin" href="https://www.linkedin.com/in/anhvun/"
-                  target="_blank" data-toggle="tooltip" title="Vu Nguyen on LinkedIn"></a>
-                <a class="fs-2x social-link icon-book" href="https://trachanh1609.github.io/portfolio" target="_blank" data-toggle="tooltip" title="" data-original-title="Vu Nguyen Porfolio"></a>
-                <a class="fs-2x social-link icon-code" href="https://trachanh1609.github.io/cv/VuNguyenCV.pdf" target="_blank" data-toggle="tooltip" title="" data-original-title="Vu Nguyen CV in PDF"></a>
-              </div>
+              <a
+                class="fs-2x social-link link-linkedin icon-linkedin" href="https://www.linkedin.com/in/anhvun/"
+                target="_blank" data-toggle="tooltip" title="Vu Nguyen on LinkedIn"></a>
+            </div>
           </div>
         </div>
       </section>
@@ -1251,26 +1295,6 @@
           <h4 class="text-uppercase">Background</h4>
           <hr />
           <div class="background-details">
-            <div class="detail" id="about">
-              <div class="icon"><i class="fs-lg icon-board"></i><span class="mobile-title">About</span></div>
-              <div class="info">
-                <h4 class="title text-uppercase">About</h4>
-                <div class="card card-nested">
-                  <div class="content mop-wrapper" itemprop="description">
-                    <p>I am a Fullstack developer who loves to see the big picture but I can also work in great details.
-                      I am passionate about technologies, entrepreneurship and personal development. Over the years, I
-                      have participated in many hackathons such as Junction, AngelHack, UltraHack, Iot Hackathon, Robot
-                      against Humanity Hackathon. In Junction 2017 I was in a team of 4 who won the first prize in one
-                      of the companies challenges and got a ticket to attend Slush 2017. In 2018 I was in a team of 3
-                      and we won the first prize in UltraHack Sprint II with the prize of 7000e and 2 Slush tickets.
-                      Further development of the project will be supported by VTT and UN. I am constantly and actively
-                      improving my skills in software development through learning online courses, attending hackathons,
-                      participating tech meetups like HelsinkiJS/ReactJS and I am helping other people to get into
-                      software development in coding clubs.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div class="detail" id="work-experience">
               <div class="icon"><i class="fs-lg icon-office"></i><span class="mobile-title">Work Experience</span></div>
               <div class="info">
@@ -1280,19 +1304,38 @@
                     <div class="content">
                       <p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip"
                           title="Currently Working" data-placement="left"></i><strong>Fullstack
-                          Developer</strong>,&nbsp;<a href="https://catapult.guru" target="_blank">Startup Catapult</a>
-                      </p>
+                          Developer</strong>, Catapult International Oy</p>
                       <p class="text-muted"><small><span class="space-right">Jan, 2019 - Present</span></small></p>
                       <div class="mop-wrapper space-bottom">
-                        <p>Fullstack web development for Catapult Platform. I am working mainly in Django, Postgres and
-                          Angular 8.</p>
+                        <p>Fullstack web development for Catapult Platform. I am working mainly in Django, Postgres,
+                          Angular and Elasticsearch.</p>
                       </div>
+                      <ul>
+                        <li class="mop-wrapper">
+                          <p>Designed, developed and maintained web applications features</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Created RESTful APIs so external services can interact with the platform</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Designed, implemented databases and developed backend services, wrote unit tests</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Conducted code reviews, fixed bugs, improved UI/UX</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Designed and implemented full-text search with operators like AND, OR, NOT, parentheses
+                            using Django and Postgres</p>
+                        </li>
+                        <li class="mop-wrapper">
+                          <p>Improved search performance by 10x by using Elasticsearch</p>
+                        </li>
+                      </ul>
                     </div>
                   </li>
                   <li class="card card-nested clearfix">
                     <div class="content">
-                      <p class="clear-margin relative"><strong>Software Developer</strong>,&nbsp;<a
-                          href="https://devecto.com" target="_blank">Devecto Oy</a></p>
+                      <p class="clear-margin relative"><strong>Software Developer</strong>, Devecto Oy</p>
                       <p class="text-muted"><small><span class="space-right">Jan, 2018 - Dec, 2018</span><span><i
                               class="icon-clock mr-5"></i>11 months</span></small></p>
                       <div class="mop-wrapper space-bottom">
@@ -1303,8 +1346,7 @@
                   </li>
                   <li class="card card-nested clearfix">
                     <div class="content">
-                      <p class="clear-margin relative"><strong>Frontend Developer</strong>,&nbsp;<a
-                          href="https://meetingpackage.com" target="_blank">Meetingpackage</a></p>
+                      <p class="clear-margin relative"><strong>Frontend Developer</strong>, MeetingPackage</p>
                       <p class="text-muted"><small><span class="space-right">Aug, 2017 - Nov, 2017</span><span><i
                               class="icon-clock mr-5"></i>3 months</span></small></p>
                       <div class="mop-wrapper space-bottom"></div>
@@ -1319,8 +1361,7 @@
                   </li>
                   <li class="card card-nested clearfix">
                     <div class="content">
-                      <p class="clear-margin relative"><strong>Frontend Developer</strong>,&nbsp;<a
-                          href="http://www.autonappi.fi" target="_blank">Autonappi</a></p>
+                      <p class="clear-margin relative"><strong>Frontend Developer</strong>, Autonappi</p>
                       <p class="text-muted"><small><span class="space-right">Feb, 2017 - May, 2017</span><span><i
                               class="icon-clock mr-5"></i>3 months</span></small></p>
                       <div class="mop-wrapper space-bottom"></div>
@@ -1348,25 +1389,21 @@
                   </li>
                   <li class="card card-nested clearfix">
                     <div class="content">
-                      <p class="clear-margin relative"><strong>Business Owner</strong>,&nbsp;VNV Siivous</p>
+                      <p class="clear-margin relative"><strong>Business Owner</strong>, VNV Siivous</p>
                       <p class="text-muted"><small><span class="space-right">Apr, 2013 - Apr, 2016</span><span><i
                               class="icon-clock mr-5"></i>3 years</span></small></p>
                       <div class="mop-wrapper space-bottom"></div>
                       <ul>
                         <li class="mop-wrapper">
-                          <p>Establishing the company from scratch, handling all paper works for instance tax payment,
-                            invoices, book keeping, pension and insurance.</p>
-                        </li>
-                        <li class="mop-wrapper">
-                          <p>Financing, marketing, customer service, maintaining company’s website etc</p>
+                          <p>One-man business, handling all paper works, accounting, marketing, sales, customer service,
+                            cleaning, etc.</p>
                         </li>
                       </ul>
                     </div>
                   </li>
                   <li class="card card-nested clearfix">
                     <div class="content">
-                      <p class="clear-margin relative"><strong>Testing Consultant</strong>,&nbsp;<a
-                          href="https://www.knowit.fi" target="_blank">KnowIT Oy</a></p>
+                      <p class="clear-margin relative"><strong>Testing Consultant</strong>, KnowIT Oy</p>
                       <p class="text-muted"><small><span class="space-right">May, 2010 - Jan, 2013</span><span><i
                               class="icon-clock mr-5"></i>2 years 8 months</span></small></p>
                       <div class="mop-wrapper space-bottom"></div>
@@ -1386,7 +1423,7 @@
                   </li>
                   <li class="card card-nested clearfix">
                     <div class="content">
-                      <p class="clear-margin relative"><strong>Testing Consultant</strong>,&nbsp;Endero Oy</p>
+                      <p class="clear-margin relative"><strong>Testing Consultant</strong>, Endero Oy</p>
                       <p class="text-muted"><small><span class="space-right">Apr, 2008 - Mar, 2009</span><span><i
                               class="icon-clock mr-5"></i>11 months</span></small></p>
                       <div class="mop-wrapper space-bottom"></div>
@@ -1411,31 +1448,31 @@
                   <ul class="list-unstyled clear-margin">
                     <li class="card card-nested card-skills">
                       <div class="skill-info"><strong>Languages and others</strong>
-                        <div class="space-top labels"><span class="label label-keyword">Python</span><span
-                            class="label label-keyword">Javascript</span><span
-                            class="label label-keyword">HTML</span><span class="label label-keyword">CSS</span><span
-                            class="label label-keyword">jQuery</span><span class="label label-keyword">Git</span><span
-                            class="label label-keyword">Bootstrap</span><span
-                            class="label label-keyword">Material</span><span
-                            class="label label-keyword">Wordpress</span><span
-                            class="label label-keyword">NodeJS</span><span
-                            class="label label-keyword">MongoDB</span><span
-                            class="label label-keyword">MySQL</span><span
-                            class="label label-keyword">Firebase</span><span class="label label-keyword">REST
-                            API</span><span class="label label-keyword">GraphQL</span><span
-                            class="label label-keyword">Azure</span><span class="label label-keyword">Heroku</span><span
-                            class="label label-keyword">UX/UI Fundamentals</span></div>
-                      </div>
-                    </li>
-                    <li class="card card-nested card-skills">
-                      <div class="skill-info"><strong>Frameworks</strong>
-                        <div class="space-top labels"><span class="label label-keyword">Vue</span><span
-                            class="label label-keyword">Quasar</span><span class="label label-keyword">React</span><span
-                            class="label label-keyword">React Native</span><span
-                            class="label label-keyword">Angular</span><span
-                            class="label label-keyword">Express</span><span
-                            class="label label-keyword">Django</span><span class="label label-keyword">Spring
-                            Boot</span></div>
+                        <div class="space-top labels"><span class="label label-keyword">
+                            <p>Python</p>
+                          </span><span class="label label-keyword">
+                            <p>Javascript</p>
+                          </span><span class="label label-keyword">
+                            <p>Typescript</p>
+                          </span><span class="label label-keyword">
+                            <p>SCSS</p>
+                          </span><span class="label label-keyword">
+                            <p>Git</p>
+                          </span><span class="label label-keyword">
+                            <p>Docker</p>
+                          </span><span class="label label-keyword">
+                            <p>Django</p>
+                          </span><span class="label label-keyword">
+                            <p>NodeJS</p>
+                          </span><span class="label label-keyword">
+                            <p>Postgres</p>
+                          </span><span class="label label-keyword">
+                            <p>Angular</p>
+                          </span><span class="label label-keyword">
+                            <p>React</p>
+                          </span><span class="label label-keyword">
+                            <p>Vue</p>
+                          </span></div>
                       </div>
                     </li>
                   </ul>
@@ -1451,27 +1488,14 @@
                   <ul class="list-unstyled clear-margin">
                     <li class="card card-nested">
                       <div class="content">
-                        <p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip"
-                            title="Currently Pursuing" data-placement="left"></i><strong>Web Development, Self
-                            learning,&nbsp;</strong>Online</p>
-                        <p class="text-muted"><small>Jun, 2015 - Present</small></p><i></i>
-                        <div class="space-top labels"><span class="label label-keyword">Foundations of Programming:
-                            Object-Oriented Design</span><span class="label label-keyword">Shaping up with
-                            Angular.js</span><span class="label label-keyword">Accelerating Through Angular
-                            2</span><span class="label label-keyword">NodeJS</span><span
-                            class="label label-keyword">ExpressJS</span><span
-                            class="label label-keyword">MongoDB</span><span
-                            class="label label-keyword">ReactJS</span><span class="label label-keyword">SASS</span><span
-                            class="label label-keyword">Testing</span></div>
-                      </div>
-                    </li>
-                    <li class="card card-nested">
-                      <div class="content">
                         <p class="clear-margin relative"><strong>Information Technology,
                             Bachelor,&nbsp;</strong>Metropolia University of Applied Sciences</p>
                         <p class="text-muted"><small>Sep, 2005 - Jun, 2011</small></p><i></i>
-                        <div class="space-top labels"><span class="label label-keyword">Software Engineer</span><span
-                            class="label label-keyword">Telecommunication</span></div>
+                        <div class="space-top labels"><span class="label label-keyword">
+                            <p>Software Engineer</p>
+                          </span><span class="label label-keyword">
+                            <p>Telecommunication</p>
+                          </span></div>
                       </div>
                     </li>
                   </ul>
@@ -1531,24 +1555,6 @@
                 </div>
               </div>
             </div>
-            <div class="detail" id="interests">
-              <div class="icon"><i class="fs-lg icon-heart"></i><span class="mobile-title">Interests</span></div>
-              <div class="info">
-                <h4 class="title text-uppercase">Interests</h4>
-                <div class="content">
-                  <ul class="list-unstyled clear-margin">
-                    <li class="card card-nested">
-                      <p><strong>Hobbies</strong></p>
-                      <div class="space-top labels"><span class="label label-keyword">Guitar</span><span
-                          class="label label-keyword">Harmonica</span><span
-                          class="label label-keyword">Football</span><span
-                          class="label label-keyword">Billiards</span><span class="label label-keyword">Drawing</span>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -1556,8 +1562,7 @@
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <script>
-    $(function () {
+  <script>$(function () {
       var toggleFloatingMenu = function () {
         $('.js-floating-nav').toggleClass('is-visible');
         $('.js-floating-nav-trigger').toggleClass('is-open');
@@ -1584,11 +1589,8 @@
       });
     });
   </script>
-  <script>
-    WebFontConfig = {
-      google: {
-        families: ['Lato:300,400,700:latin']
-      }
+  <script>WebFontConfig = {
+      google: { families: ['Lato:300,400,700:latin'] }
     };
     (function () {
       var wf = document.createElement('script');
@@ -1598,8 +1600,7 @@
       wf.async = 'true';
       var s = document.getElementsByTagName('script')[0];
       s.parentNode.insertBefore(wf, s);
-    })();
-  </script>
+    })();</script>
 </body>
 
 </html>
